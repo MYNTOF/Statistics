@@ -128,10 +128,3 @@ MAE: 0.0597
 R2: 0.9937
 ```
 ![Image alt](https://github.com/MYNTOF/Statistics/raw/main/img/pred_pt.jpg)
-```python
-from trend_classifier import Segmenter
-
-seg = Segmenter(x=x_data, y=y_data, n=20)
-seg.calculate_segments()
-seg.plot_segments()
-```
